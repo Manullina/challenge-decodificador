@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <favicon> <link rel="shortcut icon" href="./assets/favicon.ico"></favicon>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho"> 
+        <h3 class="cabecalho_titulo">Secret Messages</h3> 
+    </header>
+    <nav class="navegacao">
+        <button class="btn_copiar">Copiar Texto</button> 
+        <button class="btn_limpar">Limpar</button> 
+        <button class="btn">Logout</button> 
+    </nav>
+    <main class="principal">
+
+                    <div class="principal_pato">
+                    <p class="mensagem_quack"> Sir. Quack!</p>
+                    <img class="fotos" src="./assets/pato.png" alt="pato bocó">
+                    <textarea class="fala_pato" cols="50" rows="9"></textarea>
+                    </div>
+
+                    <div class="principal_gato">
+                        <p class="mensagem_aviso">Apenas letras minúsculas e sem acento.</p>
+                            <p class="mensagem_you">You:</p>
+                            <textarea class="fala_gato" cols="50" rows="9" placeholder="Digite sua mensagem..." ></textarea>
+                            <img class="fotos" src="./assets/gato.png" alt="gato idiota">
+                    </div>
+
+                    <div class="butoes">
+                        <button class="btn_encriptar" onclick="btnEncriptar()"> Criptografar </button> 
+                        <button class="btn_desencriptar" onclick="btnDesencriptar()"> Descriptografar </button> 
+                    </div>
+                    
+    </main>
+    <footer class="rodape"> <p>v1.0 por Isabella Menezes</p> </footer>
+    <script src="script.js"></script>
+</body>
+</html>

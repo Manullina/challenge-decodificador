@@ -1,0 +1,153 @@
+:root{
+    --cor-1: #7695FF;
+    --cor-2: #9DBDFF;
+    --cor-3: #FFD7C4;
+    --cor-4: #FF9874;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    font-style: normal; 
+    background-image: url('https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg');
+    background-position: center;
+    background-color: black;
+    color: #ffffff;
+    width: 900px;
+    height: 440px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+
+.cabecalho{
+    background-image: linear-gradient(#2D77EB, #0267F4);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0%;
+}
+
+.cabecalho_titulo{
+    padding: 10px;
+    margin: 0%;
+}
+
+.navegacao{
+    background-image: linear-gradient(#0267F4, #2D77EB);
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.principal{
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-left: 2px solid #2D77EB;
+    border-right: 2px solid #2D77EB;
+    border-bottom: 2px solid #2D77EB;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    gap: 25px;
+}
+
+.fala_pato{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.fala_gato{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mensagem_you{
+    margin: 0%;
+    margin-left: 50px;
+}
+
+.mensagem_quack{
+    margin: 0%;
+    margin-left: 50px;
+}
+
+.mensagem_aviso{
+    margin: 0%;
+    text-align: center;
+    color: #436eac;
+}
+
+.btn{
+    background-color: #2D77EB;
+    border-radius: 3px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn_encriptar{
+    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    border-radius: 3px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn_encriptar:hover{
+    color: #CCC6A1;
+    cursor: pointer;
+}
+
+.btn_desencriptar{
+    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    border-radius: 3px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn_desencriptar:hover{
+    color: #CCC6A1;
+    cursor: pointer;
+}
+
+.btn_copiar{
+    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    border-radius: 3px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn_copiar:hover{
+    color: #CCC6A1;
+    cursor: pointer;
+}
+
+.btn_limpar{
+    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    border-radius: 3px;
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+}
+
+.btn_limpar:hover{
+    color: #CCC6A1;
+    cursor: pointer;
+}
+
+.rodape{
+    text-align: center;
+    padding: 24px;
+    color: black;
+}

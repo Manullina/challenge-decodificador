@@ -1,8 +1,9 @@
 :root{
-    --cor-1: #7695FF;
-    --cor-2: #9DBDFF;
-    --cor-3: #FFD7C4;
-    --cor-4: #FF9874;
+    --cor-1: #000000;
+    --cor-2: #ffffff;
+    --cor-3: #2D77EB;
+    --cor-4: #0267F4;
+    --cor-hover: #CCC6A1;
 }
 
 body, html {
@@ -10,8 +11,8 @@ body, html {
     font-style: normal; 
     background-image: url('https://cdn.wallpaperhub.app/cloudcache/b/d/7/6/4/b/bd764bb25d49a05105060185774ba14cd2c846f7.jpg');
     background-position: center;
-    background-color: black;
-    color: #ffffff;
+    background-color: var(--cor-1);
+    color: var(--cor-2);
     width: 900px;
     height: 440px;
     margin-left: 20vh;
@@ -19,7 +20,7 @@ body, html {
 }
 
 .cabecalho{
-    background-image: linear-gradient(#2D77EB, #0267F4);
+    background-image: linear-gradient(var(--cor-3), var(--cor-4));
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin: 0%;
@@ -31,7 +32,7 @@ body, html {
 }
 
 .navegacao{
-    background-image: linear-gradient(#0267F4, #2D77EB);
+    background-image: linear-gradient(var(--cor-4), var(--cor-3));
     display: flex;
     justify-content: center;
     gap: 3%;
@@ -45,9 +46,9 @@ body, html {
     padding-top: 2%;
     background: transparent;
     backdrop-filter: blur(20px);
-    border-left: 2px solid #2D77EB;
-    border-right: 2px solid #2D77EB;
-    border-bottom: 2px solid #2D77EB;
+    border-left: 2px solid var(--cor-3);
+    border-right: 2px solid var(--cor-3);
+    border-bottom: 2px solid var(--cor-3);
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     gap: 25px;
@@ -87,7 +88,7 @@ body, html {
 }
 
 .btn{
-    background-color: #2D77EB;
+    background-color: var(--cor-3);
     border-radius: 3px;
     text-decoration: none;
     width: 200px;
@@ -95,7 +96,7 @@ body, html {
 }
 
 .btn_encriptar{
-    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    background-image: linear-gradient(var(--cor-4), var(--cor-2), var(--cor-4));
     border-radius: 3px;
     text-decoration: none;
     width: 200px;
@@ -103,12 +104,12 @@ body, html {
 }
 
 .btn_encriptar:hover{
-    color: #CCC6A1;
+    color: var(--cor-hover);
     cursor: pointer;
 }
 
 .btn_desencriptar{
-    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    background-image: linear-gradient(var(--cor-4), var(--cor-2), var(--cor-4));
     border-radius: 3px;
     text-decoration: none;
     width: 200px;
@@ -116,12 +117,12 @@ body, html {
 }
 
 .btn_desencriptar:hover{
-    color: #CCC6A1;
+    color: var(--cor-hover);
     cursor: pointer;
 }
 
 .btn_copiar{
-    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    background-image: linear-gradient(var(--cor-4), var(--cor-2), var(--cor-4));
     border-radius: 3px;
     text-decoration: none;
     width: 200px;
@@ -129,12 +130,12 @@ body, html {
 }
 
 .btn_copiar:hover{
-    color: #CCC6A1;
+    color: var(--cor-hover);
     cursor: pointer;
 }
 
 .btn_limpar{
-    background-image: linear-gradient(#0267F4, #fdfdfd, #0267F4);
+    background-image: linear-gradient(var(--cor-4), var(--cor-2), var(--cor-4));
     border-radius: 3px;
     text-decoration: none;
     width: 200px;
@@ -142,12 +143,12 @@ body, html {
 }
 
 .btn_limpar:hover{
-    color: #CCC6A1;
+    color: var(--cor-hover);
     cursor: pointer;
 }
 
 .rodape{
     text-align: center;
     padding: 24px;
-    color: black;
+    color: var(--cor-1);
 }
